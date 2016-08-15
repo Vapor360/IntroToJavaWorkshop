@@ -8,6 +8,13 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 
+	Robot R360=new Robot(); 
+    for (int i = 0; i < 4; i++) {
+    R360.penDown();
+    R360.setPenColor(0, 0, 255);
+    R360.move(50);
+		
+	}
 	
 		
 		
