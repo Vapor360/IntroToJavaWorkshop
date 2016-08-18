@@ -4,12 +4,16 @@ import javax.swing.JOptionPane;
 
 public class WorldDomination {
 	public static void main(String[] args) {
-		// 1. Ask the user if they know how to write code.
+		
+String destruction = JOptionPane. showInputDialog("Do u know how to write codes?");
+		
 
-		// 2. If they say "yes", tell them they will rule the world.
+if (destruction.equals("yes"))
+{
+JOptionPane.showConfirmDialog(null, "If you say yes you ruled the world!!! Other wish good luck washing the dishes bruh " + destruction);
 
-		// 3. Otherwise, wish them good luck washing dishes.
 
 	}
+}
 }
 
